@@ -1,0 +1,107 @@
+---
+header_text_title: Nataly A. Canales
+header_text_sub: Alt
+
+email: nataly.canales@snm.ku.dk
+twitter_h: allasicanales
+twitter_l: https://twitter.com/allasicanales
+researchgate_l: https://www.researchgate.net/profile/Nataly_Allasi_Canales
+
+footer_info: |
+  # Natural History Museum of Denmark
+  ## University of Copenhagen
+  ### Øster Farimagsgade 5A, building 7, 1st - 136
+  Copenhagen DK-1353, Denmark
+
+  +45 40230102
+
+---
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>dnataly - {{ page.title }}</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Adamina|Lustria|Philosopher|Sura" rel="stylesheet">
+		<link rel="stylesheet" href="/assets/css/styles.css">
+		<link rel="stylesheet" href="/assets/css/slick.css">
+		<link rel="stylesheet" href="/assets/css/jquery-ui.min.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="assets/js/slick.min.js"></script>
+		<script src="assets/js/jquery-ui.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</head>
+	<body>
+		<div class="header__wrapper {{ page._page }}">
+			{% if page._page == "home" or page._page == "home2" or page._page == "home3" %}
+			<header class="home2">
+				<div class="header__page">
+					<div class="header__logo">
+						<i class="icon-logo"></i>
+					</div>
+					<div class="header__text">
+						<h1>{{ layout.header_text_title }}</h1>
+						<h2>{{ layout.header_text_sub }}</h2>
+					</div>
+				</div>
+				<div class="header__background">
+					<div class="header__background__over"></div>
+					<div class="header__background__list">
+						{% assign backgrounds = site.static_files | where: "background", true %}
+						{% for background in backgrounds %}
+						<div class="header__background__img" style="background-image: url('{{ background.path }}')"></div>
+						{% endfor %}
+					</div>
+				</div>
+
+				{% if false %}
+				<div class="values_value">50%</div>
+				<div class="values"></div>
+				{% endif %}
+
+				<div class="go_down">
+					<i class="icon-arrow-down2"></i>
+				</div>
+			</header>
+			{% endif %}
+
+			<section class="section__menu">
+				<div class="section__menu__wrapper">
+					<div class="header__page">
+						<div class="header__logo">
+							<i class="icon-logo"></i>
+						</div>
+					</div>
+
+					{% include menu.html %}
+				</div>
+			</section>
+		</div>
+
+		<main>
+			{{ content }}
+		</main>
+
+		<footer>
+			<div class="footer__wrapper">
+				<div class="section__title">
+					<h1>Contact Me</h1>
+				</div>
+
+				<div class="footer__info__wrapper">
+					<div class="footer__links">
+						<div class="footer__links__mail"><a href="mailto:{{ layout.email }}"><i class="icon-mail4"></i>{{ layout.email }}</a></div>
+						<div class="footer__links__twitter"><a href="{{ layout.twitter_l }}"><i class="icon-twitter"></i>@{{ layout.twitter_h }}</a></div>
+						<div class="footer__links__rg"><a href="{{ layout.researchgate_l }}"><i class="icon-rg"></i></a></div>
+					</div>
+
+					<div class="footer__info">
+						{{ layout.footer_info | markdownify }}
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

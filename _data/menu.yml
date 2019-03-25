@@ -1,0 +1,14 @@
+- name: Home
+  link: /
+- name: About me
+  link: /about.html
+- name: Research
+  link: /research.html
+- name: Publications
+  link: /publications.html
+- name: Outreach
+  link: /outreach.html
+- name: Blog
+  link: /blog.html
+- name: External Links
+  link: /external.html

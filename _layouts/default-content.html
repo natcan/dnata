@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<section class="general__content {{ page.type }}">
+  <div class="section__wrapper">
+    <div class="section__title">
+      <h1>{{ page.title }}</h1>
+    </div>
+
+    <div class="content__wrapper">
+      <div class="extra__column">
+        {{ page.extra_column | markdownify }}
+      </div>    
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>

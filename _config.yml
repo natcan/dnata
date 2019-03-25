@@ -1,0 +1,9 @@
+collections:
+  events:
+  publications:
+
+defaults:
+  - scope:
+      path: "assets/img/bckgrnd"
+    values:
+      background: true
