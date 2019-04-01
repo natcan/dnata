@@ -131,6 +131,7 @@ header .header__text {
   header .header__text h1 {
     display: block;
     margin: 20px 0 0 0;
+    transition: 0.25s;
     font-size: 60px; }
   header .header__text h2 {
     display: none; }
@@ -138,8 +139,54 @@ header .header__text {
 header .header__logo {
   padding: 10px 0; }
   header .header__logo i {
+    transition: 0.25s;
     font-size: 200px; }
 
+.menu__icon {
+  display: none; }
+  .menu__icon i {
+    font-size: 20px;
+    cursor: pointer;
+    color: white; }
+
+@media all and (max-width: 900px) {
+  .menu__icon {
+    display: flex;
+    z-index: 50; }
+
+  .menu__nav {
+    z-index: 100;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 101%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 72px;
+    background-color: #6D485C;
+    transition: 0.5s ease-in-out;
+    opacity: 0; }
+    .menu__nav a {
+      width: 100%;
+      text-align: center; }
+      .menu__nav a:hover {
+        background-color: rgba(0, 0, 0, 0.1); }
+
+  .menu__active {
+    left: 0 !important;
+    opacity: 1 !important; }
+
+  .section__menu__wrapper {
+    padding: 10px 20px; }
+    .section__menu__wrapper .header__page {
+      margin-left: 0 !important; } }
+@media all and (max-width: 550px) {
+  header .header__logo i {
+    font-size: 100px !important; }
+
+  .header__text h1 {
+    font-size: 35px !important; } }
 .section__menu {
   background-color: #6D485C;
   width: 100%; }
@@ -152,6 +199,9 @@ header .header__logo {
 .section__menu__wrapper {
   display: flex;
   width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: space-between;
   align-items: center; }
   .section__menu__wrapper .header__page {
@@ -202,9 +252,6 @@ header .header__logo {
   left: 0;
   z-index: 1000; }
 
-@media all and (max-width: 1080px) {
-  .main_menu nav {
-    display: none; } }
 .main__on__menu {
   margin-top: 72px; }
 
@@ -309,6 +356,18 @@ section {
     margin: 10px 0 0 0;
     font-size: 12px; }
 
+@media all and (max-width: 760px) {
+  .list__events ul {
+    flex-direction: column;
+    align-items: center; }
+    .list__events ul li {
+      width: 80% !important;
+      margin-top: 20px; }
+    .list__events ul li:nth-child(1) {
+      margin-top: 0; } }
+@media all and (max-width: 450px) {
+  .list__events ul li {
+    width: 100% !important; } }
 .general__text p {
   font-size: 14px; }
   .general__text p a {
@@ -488,55 +547,30 @@ footer {
 .about__main__read_more {
   float: right; }
 
-@font-face {
-  font-family: 'Markazi Text';
-  src: url("../fonts/MarkaziText-Regular.woff2") format("woff2"), url("../fonts/MarkaziText-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'Cabin';
-  src: url("../fonts/Cabin-Regular.woff2") format("woff2"), url("../fonts/Cabin-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'Cabin';
-  src: url("../fonts/Cabin-SemiBold.woff2") format("woff2"), url("../fonts/Cabin-SemiBold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal; }
-@font-face {
-  font-family: 'Cabin';
-  src: url("../fonts/Cabin-Bold.woff2") format("woff2"), url("../fonts/Cabin-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal; }
-@font-face {
-  font-family: 'Cabin';
-  src: url("../fonts/Cabin-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Cabin-SemiBoldItalic.woff") format("woff");
-  font-weight: 600;
-  font-style: italic; }
-@font-face {
-  font-family: 'Cabin';
-  src: url("../fonts/Cabin-Medium.woff2") format("woff2"), url("../fonts/Cabin-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal; }
-@font-face {
-  font-family: 'Cabin';
-  src: url("../fonts/Cabin-MediumItalic.woff2") format("woff2"), url("../fonts/Cabin-MediumItalic.woff") format("woff");
-  font-weight: 500;
-  font-style: italic; }
-@font-face {
-  font-family: 'Cabin';
-  src: url("../fonts/Cabin-BoldItalic.woff2") format("woff2"), url("../fonts/Cabin-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic; }
-@font-face {
-  font-family: 'Cabin';
-  src: url("../fonts/Cabin-Italic.woff2") format("woff2"), url("../fonts/Cabin-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic; }
+@media all and (max-width: 1366px) {
+  .about__main__info__wrapper {
+    padding-left: 20px;
+    padding-right: 20px; } }
+@media all and (max-width: 700px) {
+  .about__main {
+    flex-direction: column;
+    height: auto !important; }
+
+  .about__main__info {
+    width: 100%; }
+
+  .about__main__pic {
+    width: 100%; }
+
+  .about__main__pic--inside {
+    height: 250px; }
+
+  .about__main__info {
+    margin-top: 30px; } }
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?yjhwxz");
-  src: url("../fonts/icomoon.eot?yjhwxz#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?yjhwxz") format("truetype"), url("../fonts/icomoon.woff?yjhwxz") format("woff"), url("../fonts/icomoon.svg?yjhwxz#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?pc8k2u");
+  src: url("../fonts/icomoon.eot?pc8k2u#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?pc8k2u") format("truetype"), url("../fonts/icomoon.woff?pc8k2u") format("woff"), url("../fonts/icomoon.svg?pc8k2u#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
@@ -551,6 +585,12 @@ footer {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.icon-icons8-cancel:before {
+  content: "\e903"; }
+
+.icon-icon-menu:before {
+  content: "\e902"; }
 
 .icon-rg:before {
   content: "\e901";

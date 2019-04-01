@@ -1,4 +1,4 @@
-<nav>
+<nav class="menu__nav">
 	{% for item in site.data.menu %}
 		<a href="{{item.link}}" {% if page.url == item.link %}class="menu__current"{% endif %}>{{item.name}}</a>
 	{% endfor %}

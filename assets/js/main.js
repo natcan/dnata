@@ -34,6 +34,16 @@ $(document).ready(function() {
 		}, 400);
 	});
 
+	$(document).on("click", ".menu__icon i.icon-icon-menu", function() {
+		$(this).attr("class", "icon-icons8-cancel");
+		$(".menu__nav").addClass("menu__active");
+	});
+
+	$(document).on("click", ".menu__icon i.icon-icons8-cancel", function() {
+		$(this).attr("class", "icon-icon-menu");
+		$(".menu__nav").removeClass("menu__active");
+	});
+
 	$(".values").slider({
 		min: 0,
 		max: 100,
