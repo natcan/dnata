@@ -28,11 +28,11 @@ $(document).ready(function() {
 		}
 	});
 
-	$(".go_down i").click(function() {
+	/*$(".go_down i").click(function() {
 		$("html, body").animate({
 			scrollTop: vh(100)
 		}, 400);
-	});
+	});*/
 
 	$(document).on("click", ".menu__icon i.icon-icon-menu", function() {
 		$(this).attr("class", "icon-icons8-cancel");

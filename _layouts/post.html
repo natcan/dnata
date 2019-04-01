@@ -1,7 +1,20 @@
 ---
 layout: default
 ---
-<h1>{{page.title}}</h1>
-<p>{{page.date | date_to_string}} - {{page.author}}</p>
+<section class="general__content {{ page.type }}">
+  <div class="section__wrapper">
+    <div class="section__title">
+      <h1>{{ page.title }}</h1>
+      <p>Posted on {{ page.date | date: "%F"}}</p>
+    </div>
 
-{{content}}
+    <div class="content__wrapper">
+      <div class="extra__column">
+        {{ page.extra_column | markdownify }}
+      </div>
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>
