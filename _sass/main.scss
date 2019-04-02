@@ -169,6 +169,7 @@ header .header__text {
 		margin: 20px 0 0 0;
 		transition: 0.25s;
 		font-size: 60px;
+		text-shadow: 3px 3px 3px rgba(0,0,0,0.47);
 	}
 	h2 {
 		display: none;
@@ -180,6 +181,7 @@ header .header__logo {
 	i {
 		transition: 0.25s;
 		font-size: 200px;
+		text-shadow: 3px 3px 3px rgba(0,0,0,0.47);
 	}
 }
 
@@ -278,7 +280,7 @@ header .header__logo {
 
 .menu__current {
 	color: $main-color;
-	border-bottom: 2px solid $main-color;
+	border-bottom: 2px solid white;
 	font-weight: 500;
 }
 
@@ -386,12 +388,16 @@ section {
 	height: 250px;
 	position: relative;
 	background-image: url("../img/bck2.jpg");
+	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
 	transition: 0.25s ease-in-out;
+
+
 	h1 {
 		color: white;
 		font-size: 30px;
+		text-shadow: 3px 3px 3px rgba(0,0,0,0.47);
 	}
 	.section__title__wrapper {
 		width: 100%;
