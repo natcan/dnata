@@ -691,6 +691,10 @@ footer {
 }
 
 .content {
+	.v-align {
+		display: flex;
+		align-items: center;
+	}
 	.p-center {
 		text-align: center;
 	}
@@ -731,6 +735,12 @@ footer {
 	}
 	.width-6 {
 		width: 16.66%;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.width-1-5, .width-2, .width-3, .width-4, .width-5, .width-6 {
+		width: 75% !important;
 	}
 }
 
@@ -775,5 +785,19 @@ footer {
 		margin-bottom: 0 !important;
 		margin-top: 10px;
 		text-align: left !important;
+	}
+}
+
+.content {
+	iframe {
+		margin: 0 auto;
+		display: block;
+	}
+}
+
+@media all and (max-width: 680px) {
+	iframe {
+		max-width: 100%;
+		height: auto !important;
 	}
 }

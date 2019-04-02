@@ -500,6 +500,9 @@ footer {
 .no-bullet::before {
   content: "" !important; }
 
+.content .v-align {
+  display: flex;
+  align-items: center; }
 .content .p-center {
   text-align: center; }
 .content .p-left {
@@ -528,6 +531,9 @@ footer {
 .content .width-6 {
   width: 16.66%; }
 
+@media all and (max-width: 500px) {
+  .width-1-5, .width-2, .width-3, .width-4, .width-5, .width-6 {
+    width: 75% !important; } }
 .publication__content {
   margin-bottom: 20px; }
   .publication__content p {
@@ -563,6 +569,14 @@ footer {
     margin-top: 10px;
     text-align: left !important; }
 
+.content iframe {
+  margin: 0 auto;
+  display: block; }
+
+@media all and (max-width: 680px) {
+  iframe {
+    max-width: 100%;
+    height: auto !important; } }
 .about__main {
   width: 100%;
   height: calc(100vh - 72px);
