@@ -178,11 +178,28 @@ header .header__logo {
   .menu__active {
     left: 0 !important;
     opacity: 1 !important; }
+    .menu__active .menu__current {
+      position: relative;
+      border-bottom: 1px solid transparent;
+      background-color: rgba(0, 0, 0, 0.03);
+      /*&:after {
+      	content: "";
+      	position: absolute;
+      	width: 200px;
+      	left: 50%;
+      	height: 1px;
+      	transform: translateX(-50%);
+      	background-color: white;
+      	bottom: 0px;
+      }*/ }
 
   .section__menu__wrapper {
     padding: 10px 20px; }
     .section__menu__wrapper .header__page {
       margin-left: 0 !important; } }
+@media all and (max-width: 900px) {
+  .menu__current {
+    border-bottom: 1px solid transparent !important; } }
 @media all and (max-width: 550px) {
   header .header__logo i {
     font-size: 100px !important; }
@@ -324,7 +341,8 @@ section {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.47);
-    z-index: 1; }
+    z-index: 1;
+    background-image: url("../img/site/noise.png"); }
 
 @media all and (max-width: 1200px) {
   .section__wrapper, .section__title__wrapper {
@@ -332,7 +350,14 @@ section {
     padding-left: 20px; } }
 @media all and (max-width: 750px) {
   .section__title_cover {
-    height: 100px; } }
+    height: 100px; }
+    .section__title_cover h1 {
+      font-size: 22px; }
+
+  .content h1 {
+    font-size: 18px; }
+  .content p {
+    font-size: 14px; } }
 .section__title {
   color: #6D485C; }
 
