@@ -162,7 +162,7 @@ header .header__logo {
     position: absolute;
     top: 0;
     left: 101%;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     margin-top: 72px;
@@ -176,6 +176,8 @@ header .header__logo {
         background-color: rgba(0, 0, 0, 0.1); }
 
   .menu__active {
+    display: flex;
+    transition: 0.5s ease-in-out;
     left: 0 !important;
     opacity: 1 !important; }
     .menu__active .menu__current {
