@@ -15,14 +15,34 @@ footer_info: |
 
   +45 40230102
 
+page_description: |
+  I am an evolutionary biologist with strong focus on trait evolution to understand the evolutionary processes and biodiversity patterns in medicinal species, scientifically supporting traditional knowledge, to ultimately improve health. To achieve this, I work with museum collections and modern samples using phylogenomic and chromatographic approaches.
+
+  Currently, I am a Marie Skłodowska-Curie PhD fellow in the [Natural History Museum of Denmark](https://evogenomics.snm.ku.dk/research-groups/roensted_group/) and an early stage researcher in the [Plant.ID project](https://www.plantid.uio.no/). Originally from Peru, where I obtained my bachelors in Genetics and Biotechnology, then I moved to China to study my masters in Bionformatics… 
+
 ---
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>dnataly - {{ page.title }}</title>
 
+		{% if page.title == "Home" %}
+		<meta property="og:title" content="dnataly">
+		{% else %}
+		<meta property="og:title" content="dnataly - {{ page.title }}">
+		{% endif %}
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="/assets/img/site/site.jpg">
+		<meta property="og:url" content="{{ page.url | absolute_url }}">
+		<meta property="og:site_name" content="DNATALY">
+		<meta property="og:description" content="{{ layout.page_description }}">
+
+		{% if page.title == "Home" %}
+		<title>dnataly</title>
+		{% else %}
+		<title>dnataly - {{ page.title }}</title>
+		{% endif %}
 		<link href="https://fonts.googleapis.com/css?family=Adamina|Lustria|Philosopher|Sura" rel="stylesheet">
 		<link rel="stylesheet" href="/assets/css/styles.css">
 		<link rel="stylesheet" href="/assets/css/slick.css">
@@ -32,6 +52,8 @@ footer_info: |
 		<script src="assets/js/slick.min.js"></script>
 		<script src="assets/js/jquery-ui.min.js"></script>
 		<script src="assets/js/main.js"></script>
+
+		<link rel="shortcut icon" type="image/png" href="/favicon.png">
 	</head>
 	<body>
 		<div class="header__wrapper {{ page._page }}">
