@@ -634,14 +634,43 @@ footer {
     margin-top: 10px;
     text-align: left !important; }
 
-.content iframe {
-  margin: 0 auto;
-  display: block; }
+/*
+.content {
+	iframe {
+		margin: 0 auto;
+		display: block;
+		tranform: rotate 25deg;
+	}
+}
 
 @media all and (max-width: 680px) {
-  iframe {
-    max-width: 100%;
-    height: auto !important; } }
+	iframe {
+		max-width: 100%;
+		height: auto !important;
+	}
+}
+
+*/
+.vidframe__wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 30px auto 0 auto;
+  position: relative;
+  /*display: flex;
+  justify-content: center;*/ }
+
+.vidframe {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px; }
+
+.vidframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 .about__main {
   width: 100%;
   height: calc(100vh - 72px);

@@ -3,7 +3,7 @@ layout: default-content
 title: About Me
 type: two-columns
 extra_column: |
-  ![alt text](/assets/img/learn_more.jpg "Me")
+  ![Nataly](/assets/img/learn_more.jpg "Me")
 ---
 
 Surrounded by the Amazonian biodiversity as a child, I have always felt fascinated by nature and its complexity, which led me to study Genetics and Biotechnology in Universidad Nacional Mayor de San Marcos (UNMSM, Peru). Missing my hometown's thrilling endemic species, I volunteered to work in a serpentarium at the Natural History Museum of Peru where we would analyze their venom for further pharmaceutical use.
