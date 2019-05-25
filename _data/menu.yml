@@ -1,12 +1,12 @@
 - name: Home
   link: /
 - name: About me
-  link: /about.html
+  link: /about
 - name: Research
-  link: /research.html
+  link: /research
 - name: Publications
-  link: /publications.html
+  link: /publications
 - name: Outreach
-  link: /outreach.html
+  link: /outreach
 - name: External Links
-  link: /external.html
+  link: /external

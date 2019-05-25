@@ -33,7 +33,11 @@ page_description: |
 		<meta property="og:title" content="dnataly - {{ page.title }}">
 		{% endif %}
 		<meta property="og:type" content="website">
-		<meta property="og:image" content="/assets/img/site/site.jpg">
+		{% assign og_image = "/assets/img/site/site.jpg" %}
+		{% if page.thumb %}
+			{% assign og_image = page.thumb %}
+		{% endif %}
+		<meta property="og:image" content="{{ og_image }} ">
 		<meta property="og:url" content="{{ page.url | absolute_url }}">
 		<meta property="og:site_name" content="DNATALY">
 		<meta property="og:description" content="{{ layout.page_description }}">
@@ -114,6 +118,10 @@ page_description: |
 			<div class="footer__wrapper">
 				<div class="section__title">
 					<h1>Contact Me</h1>
+				</div>
+
+				<div class="footer__twitter_feed">
+					<a class="twitter-timeline" href="https://twitter.com/allasicanales?ref_src=twsrc%5Etfw" data-tweet-limit="4">Tweets by allasicanales</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 				</div>
 
 				<div class="footer__info__wrapper">
