@@ -453,10 +453,11 @@ footer {
 
 .footer__info__wrapper {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-around;
   margin-top: 30px; }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 1100px) {
   .footer__info__wrapper {
     flex-direction: column;
     align-items: center;
@@ -472,7 +473,8 @@ footer {
     margin-top: 20px;
     padding-top: 20px;
     border-top: 1px solid #6D485C;
-    text-align: center; } }
+    text-align: center;
+    flex: 1; } }
 .footer__links a {
   display: flex;
   align-items: center;
@@ -487,6 +489,9 @@ footer {
   font-size: 13px; }
 
 .footer__info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-size: 14px;
   line-height: 23px; }
   .footer__info h1 {
@@ -671,9 +676,6 @@ footer {
   width: 100%;
   height: 100%; }
 
-.footer__twitter_feed {
-  display: none; }
-
 .post__item__wrapper {
   display: flex;
   width: 100%; }
@@ -722,6 +724,104 @@ footer {
   margin-top: 20px;
   font-style: italic; }
 
+#footer__twitter_feed {
+  width: 100%;
+  padding: 10px;
+  max-width: 750px; }
+  #footer__twitter_feed .tweet__retweeted {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px; }
+    #footer__twitter_feed .tweet__retweeted img {
+      display: inline-block; }
+    #footer__twitter_feed .tweet__retweeted span {
+      font-size: .9em;
+      opacity: .5;
+      margin-left: 10px; }
+  #footer__twitter_feed .twitter__feed__header {
+    font-size: .9em; }
+    #footer__twitter_feed .twitter__feed__header span {
+      font-weight: bold; }
+    #footer__twitter_feed .twitter__feed__header a {
+      color: #6D485C; }
+  #footer__twitter_feed ul {
+    margin-top: 10px; }
+  #footer__twitter_feed li {
+    cursor: pointer;
+    padding: 10px;
+    overflow: hidden; }
+    #footer__twitter_feed li:hover {
+      background-color: rgba(109, 79, 92, 0.1); }
+    #footer__twitter_feed li .user, #footer__twitter_feed li .tweet__user {
+      position: relative; }
+      #footer__twitter_feed li .user a[data-scribe="element:user_link"], #footer__twitter_feed li .tweet__user a[data-scribe="element:user_link"] {
+        float: left;
+        width: 48px;
+        height: 48px;
+        display: block; }
+        #footer__twitter_feed li .user a[data-scribe="element:user_link"] .Avatar, #footer__twitter_feed li .tweet__user a[data-scribe="element:user_link"] .Avatar {
+          width: 100%;
+          height: 100%;
+          border-radius: 24px; }
+      #footer__twitter_feed li .user div[data-scribe="component:author"], #footer__twitter_feed li .tweet__user div[data-scribe="component:author"] {
+        padding-left: 10px;
+        width: calc(100% - 70px);
+        float: left; }
+        #footer__twitter_feed li .user div[data-scribe="component:author"] a, #footer__twitter_feed li .tweet__user div[data-scribe="component:author"] a {
+          width: 100% !important; }
+        #footer__twitter_feed li .user div[data-scribe="component:author"] .TweetAuthor-nameScreenNameContainer, #footer__twitter_feed li .tweet__user div[data-scribe="component:author"] .TweetAuthor-nameScreenNameContainer {
+          display: flex;
+          flex-direction: column; }
+          #footer__twitter_feed li .user div[data-scribe="component:author"] .TweetAuthor-nameScreenNameContainer .TweetAuthor-name, #footer__twitter_feed li .tweet__user div[data-scribe="component:author"] .TweetAuthor-nameScreenNameContainer .TweetAuthor-name {
+            font-size: 1.1em;
+            font-weight: 600; }
+          #footer__twitter_feed li .user div[data-scribe="component:author"] .TweetAuthor-nameScreenNameContainer .TweetAuthor-screenName, #footer__twitter_feed li .tweet__user div[data-scribe="component:author"] .TweetAuthor-nameScreenNameContainer .TweetAuthor-screenName {
+            font-size: .9em;
+            opacity: .5; }
+    #footer__twitter_feed li .tweet, #footer__twitter_feed li .tweet__content {
+      clear: both;
+      padding-left: 58px;
+      margin-bottom: 12px;
+      width: 100%; }
+      #footer__twitter_feed li .tweet a, #footer__twitter_feed li .tweet__content a {
+        color: #6D485C;
+        font-weight: 500; }
+      #footer__twitter_feed li .tweet .tweet__content__media, #footer__twitter_feed li .tweet__content .tweet__content__media {
+        width: 100%;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 12px;
+        padding-top: 0;
+        padding-bottom: 25%; }
+        #footer__twitter_feed li .tweet .tweet__content__media .tweet__content__media__wrapper, #footer__twitter_feed li .tweet__content .tweet__content__media .tweet__content__media__wrapper {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%; }
+          #footer__twitter_feed li .tweet .tweet__content__media .tweet__content__media__wrapper .tweet__content__media__img, #footer__twitter_feed li .tweet__content .tweet__content__media .tweet__content__media__wrapper .tweet__content__media__img {
+            height: 100%; }
+          #footer__twitter_feed li .tweet .tweet__content__media .tweet__content__media__wrapper img, #footer__twitter_feed li .tweet__content .tweet__content__media .tweet__content__media__wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; }
+          #footer__twitter_feed li .tweet .tweet__content__media .tweet__content__media__wrapper .tweet_media-1, #footer__twitter_feed li .tweet__content .tweet__content__media .tweet__content__media__wrapper .tweet_media-1 {
+            width: 100%; }
+          #footer__twitter_feed li .tweet .tweet__content__media .tweet__content__media__wrapper .tweet_media-2, #footer__twitter_feed li .tweet__content .tweet__content__media .tweet__content__media__wrapper .tweet_media-2 {
+            float: left;
+            width: 50% !important; }
+            #footer__twitter_feed li .tweet .tweet__content__media .tweet__content__media__wrapper .tweet_media-2:nth-child(1), #footer__twitter_feed li .tweet__content .tweet__content__media .tweet__content__media__wrapper .tweet_media-2:nth-child(1) {
+              padding-right: 1px; }
+    #footer__twitter_feed li .timePosted, #footer__twitter_feed li .tweet__date {
+      float: right;
+      font-size: .9em;
+      opacity: 0.5; }
+
+@media all and (max-width: 850px) {
+  .tweet__content {
+    font-size: .9em;
+    padding-top: 12px;
+    padding-left: 0 !important; } }
 .about__main {
   width: 100%;
   height: calc(100vh - 72px);

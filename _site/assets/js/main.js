@@ -54,4 +54,87 @@ $(document).ready(function() {
 			$(".values_value").html(opacity + "%");
 		}
 	});
+
+	/*var arg_tweets = {
+		"profile": {"screenName": 'allasicanales'},
+		"domId": 'footer__twitter_feed',
+		"maxTweets": 4,
+		"enableLinks": true,
+		"showUser": true,
+		"showTime": true,
+		"showImages": true,
+		"showRetweet": true,
+		"lang": 'en',
+	};*/
 });
+
+var arg_tweets = {
+	"profile" : {"screenName": "allasicanales"},
+	"dataOnly" : true,
+	"customCallback" : displayTweets,
+	"enableLinks": true,
+	"maxTweets": 4,
+	"showImages": true,
+}
+
+twitterFetcher.fetch(arg_tweets);
+
+function displayTweets(tweets) {
+	var element = document.getElementById("footer__twitter_feed");
+	var html = "<div class='twitter__feed__header'><span>Tweets</span> by <a href='https://twitter.com/allasicanales'>‎@allasicanales</a></div>";
+	html += '<ul class="twitter_feed">';
+	for (var i = 0, lgth = tweets.length; i < lgth ; i++) {
+		var tweetObject = tweets[i];
+
+		var author_name = tweetObject.author_data.name;
+		var _rt = "<div class='tweet__retweeted'><img src='/assets/img/twitter/retweeted.png'><span>Nataly Allasi Canales Retweeted</span></div>";
+		var retweeted = (author_name.indexOf("Nataly") == -1? _rt : "");
+
+		html += "<li>"
+			+ "<div class='tweet__wrapper'>"
+
+			+ retweeted
+			
+			+ "<div class='tweet__user'>"
+			+ tweetObject.author
+			+ "</div>" //tweets_user
+
+			+ "<div class='tweet__content'>"
+			+ "<div class='tweet__content__tweet'>"
+			+ tweetObject.tweet
+			+ "</div>"; //tweet__content__tweet
+		
+		if(tweetObject.images) {
+			html += "<div class='tweet__content__media'>";
+			html += "<div class='tweet__content__media__wrapper'>";
+			var total_img = tweetObject.images.length;
+
+			total_img = (total_img > 2? 2 : total_img);
+			var img_class = "tweet_media-1";
+			if(total_img == 2) img_class = "tweet_media-2";
+
+			for(var j = 0; j < total_img; ++j) {
+				html += "<div class='tweet__content__media__img " + img_class + "'><img src='" + tweetObject.images[j] + "'/></div>";
+			}
+
+			html += "</div>"; //tweet__content__media__wrapper
+			html += "</div>"; //tweet__content__media
+		}
+
+		html += "</div>" //tweet__content
+			+ "<div class='tweet__date'>"
+			+ "<a href='" + tweetObject.permalinkURL + "' target='_blank'>" + tweetObject.time + "</a>"
+			+ "</div>" //tweet__date
+
+			+ "</div>" //wrapper
+			+ "</a></li>";
+	}
+	html += '</ul>';
+	element.innerHTML = html;
+
+	$(".twitter_feed").slick({
+		autoplay: true,
+		arrows: false,
+		speed: 1000
+	});
+}

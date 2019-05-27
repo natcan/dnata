@@ -33,7 +33,7 @@ page_description: |
 		<meta property="og:title" content="dnataly - {{ page.title }}">
 		{% endif %}
 		<meta property="og:type" content="website">
-		{% assign og_image = "/assets/img/site/site.jpg" %}
+		{% assign og_image = "{{ base.url | prepend: site.url }}/assets/img/site/site.jpg" %}
 		{% if page.thumb %}
 			{% assign og_image = page.thumb %}
 		{% endif %}
@@ -57,9 +57,10 @@ page_description: |
 		<link rel="stylesheet" href="/assets/css/jquery-ui.min.css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="assets/js/slick.min.js"></script>
-		<script src="assets/js/jquery-ui.min.js"></script>
-		<script src="assets/js/main.js"></script>
+		<script src="{{ base.url | prepend: site.url }}/assets/js/slick.min.js"></script>
+		<script src="{{ base.url | prepend: site.url }}/assets/js/jquery-ui.min.js"></script>
+		<script src="{{ base.url | prepend: site.url }}/assets/js/twitterFetcher_min.js"></script>
+		<script src="{{ base.url | prepend: site.url }}/assets/js/main.js"></script>
 
 		<link rel="shortcut icon" type="image/png" href="/favicon.png">
 	</head>
@@ -124,18 +125,16 @@ page_description: |
 					<h1>Contact Me</h1>
 				</div>
 
-				<div class="footer__twitter_feed">
-					<a class="twitter-timeline" href="https://twitter.com/allasicanales?ref_src=twsrc%5Etfw" data-tweet-limit="4">Tweets by allasicanales</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-				</div>
 
 				<div class="footer__info__wrapper">
-					<div class="footer__links">
-						<div class="footer__links__mail"><a href="mailto:{{ layout.email }}"><i class="icon-mail4"></i>{{ layout.email }}</a></div>
-						<div class="footer__links__twitter"><a href="{{ layout.twitter_l }}"><i class="icon-twitter"></i>@{{ layout.twitter_h }}</a></div>
-						<div class="footer__links__rg"><a href="{{ layout.researchgate_l }}"><i class="icon-rg"></i></a></div>
-					</div>
+					<div id="footer__twitter_feed"></div>
 
 					<div class="footer__info">
+						<div class="footer__links">
+							<div class="footer__links__mail"><a href="mailto:{{ layout.email }}"><i class="icon-mail4"></i>{{ layout.email }}</a></div>
+							<div class="footer__links__twitter"><a href="{{ layout.twitter_l }}"><i class="icon-twitter"></i>@{{ layout.twitter_h }}</a></div>
+							<div class="footer__links__rg"><a href="{{ layout.researchgate_l }}"><i class="icon-rg"></i></a></div>
+						</div>
 						{{ layout.footer_info | markdownify }}
 					</div>
 				</div>
