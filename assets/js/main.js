@@ -73,7 +73,7 @@ var arg_tweets = {
 	"dataOnly" : true,
 	"customCallback" : displayTweets,
 	"enableLinks": true,
-	"maxTweets": 4,
+	"maxTweets": 5,
 	"showImages": true,
 }
 
