@@ -3,6 +3,27 @@ layout: default-content
 title: Outreach
 ---
 
+# Talks
+
+* Reconectando las colecciones de Cinchona en Madrid y Kew (Real expedición botánica al virreinato del Perú).
+
+August 2nd, 2019. Madrid, Spain.
+
+Synthesys presentation, RJB Madrid.
+
+
+* Maximum recovery of genomic DNA from bark collections to resolve the evolutionary history of the Fever tree.
+
+June 17-20, 2019. Trondheim, Norway.
+
+Lightening talk in the Barcode of Life Conference - aDNA and Past Communities section
+
+* Paleogenomic annotation of historical Cinchona bark samples across time and space.
+
+April the 3rd to 5th, 2019. London, UK
+
+ 3rd UK Plant Evolution meeting - Early researchers session, Kew gardens.
+
 # Blog posts
 
 ![](/assets/img/blogpost.jpg){: .img-center .width-3}
