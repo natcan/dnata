@@ -630,6 +630,10 @@ footer {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+
+		.icon-gcit {
+			transform: scale(0.8) translateX(0) !important;
+		}
 	}
 
 	.footer__info {
@@ -662,6 +666,14 @@ footer {
 
 	.icon-rg {
 		font-size: 13px;
+	}
+
+	.footer__links__gcit {
+		margin-top: 4px;
+	}
+
+	.icon-gcit {
+		transform: scale(0.8) translateX(-20px);
 	}
 }
 
