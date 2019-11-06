@@ -1,5 +1,5 @@
 ---
-publication_link: http://2018.botanyconference.org/engine/search/index.php?func=detail&aid=114
+publication_link: https://epostersonline.com/norbol2019/node/1257
 publication_type: poster
 ---
-Allasi Canales, Nataly Olivia. Genome-wide identication of resistant genes in domesticated and wild rice varieties (Oryza spp; Poaceae). Botany 2018, Rochester.
+Maximum recovery of genomic DNA from bark collections to resolve the evolutionary history of the Fever tree. Nataly Allasi Canales, Christopher J. Barnes, Mark Nesbitt, Kim Walker, Tobias Gress, Claus Cornett, Carla Maldonado, Alexandre Antonelli, Nina Rønsted. 8th International Barcode of Life Conference 2019, Trondheim, Norway. June 17-20, 2019.

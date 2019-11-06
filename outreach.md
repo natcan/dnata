@@ -5,22 +5,29 @@ title: Outreach
 
 # Talks
 
-* Reconectando las colecciones de Cinchona en Madrid y Kew (Real expedición botánica al virreinato del Perú).
 
-August 2nd, 2019. Madrid, Spain.
+* **Reconectando las colecciones de _Cinchona_ en Madrid y Kew (Real expedición botánica al virreinato del Perú).**
 
-Synthesys presentation, RJB Madrid.
+October 2nd, 2019. Madrid, Spain.
+
+Synthesys+ presentation, RJB Madrid.
+
+* **Semillas históricas del árbol de la quina(_Cinchona sp_): de leyenda a historia**
+
+September 19th. Lima, Peru. Remotely.
+
+Simposio Peruano de Diversidad y Taxonomía Vegetal.
 
 
-* Maximum recovery of genomic DNA from bark collections to resolve the evolutionary history of the Fever tree.
+* **Maximum recovery of genomic DNA from bark collections to resolve the evolutionary history of the Fever tree.**
 
 June 17-20, 2019. Trondheim, Norway.
 
 Lightening talk in the Barcode of Life Conference - aDNA and Past Communities section
 
-* Paleogenomic annotation of historical Cinchona bark samples across time and space.
+* **Paleogenomic annotation of historical _Cinchona_ bark samples across time and space.**
 
-April the 3rd to 5th, 2019. London, UK
+April 3-5, 2019. London, UK
 
  3rd UK Plant Evolution meeting - Early researchers session, Kew gardens.
 
@@ -34,8 +41,17 @@ About my field work in Bolivia, collaborating with the Herbario Nacional de Boli
 
 # Teaching
 
-* Genome assembly course (Spanish), online course with IGBM.
-* Introduction to Phylogenetics course (Spanish), online course with IGBM.
+* **Plants, phylogenies, drugs and G&Ts**, lecture in the "Animal-plants interactions and evolutionary approach" bachelor course.
+
+September 2019
+
+* **Genome assembly course (Spanish)**, online course with IGBM.
+
+April 2019
+
+* **Introduction to Phylogenetics course (Spanish)**, online course with IGBM.
+
+January 2018
 
 # Video
 
