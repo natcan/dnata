@@ -31,14 +31,6 @@ April 3-5, 2019. London, UK
 
  3rd UK Plant Evolution meeting - Early researchers session, Kew gardens.
 
-# Blog posts
-
-![](/assets/img/blogpost.jpg){: .img-center .width-3}
-
-About my field work in Bolivia, collaborating with the Herbario Nacional de Bolivia on the 1st Flora of Bolivia expedition in Pilón Lajas Biosphere Reserve:
-
-[Botanists as time travelers - Plant.ID](https://www.plantid.uio.no/news-and-events/blog/botanists-as-time-travelers.html)
-
 # Teaching
 
 * **Plants, phylogenies, drugs and G&Ts**, lecture in the "Animal-plants interactions and evolutionary approach" bachelor course.
@@ -52,6 +44,15 @@ April 2019
 * **Introduction to Phylogenetics course (Spanish)**, online course with IGBM.
 
 January 2018
+
+
+# Blog posts
+
+![](/assets/img/blogpost.jpg){: .img-center .width-3}
+
+About my field work in Bolivia, collaborating with the Herbario Nacional de Bolivia on the 1st Flora of Bolivia expedition in Pilón Lajas Biosphere Reserve:
+
+[Botanists as time travelers - Plant.ID](https://www.plantid.uio.no/news-and-events/blog/botanists-as-time-travelers.html)
 
 # Video
 
