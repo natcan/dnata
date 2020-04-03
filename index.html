@@ -47,7 +47,7 @@ _page: home
 				{% assign total_events = site.events | sort: "event_date_sort" %}
 				{% assign n_events = total_events | size %}
 				<ul class="list__columns-{{ n_events }}">
-					{% for event in total_events limit: 4 %}
+					{% for event in total_events limit: 3 %}
 					<li>
 						<a href="{{ event.event_link }}">
 							<figure>
@@ -79,7 +79,7 @@ _page: home
 		<div class="section__content">
 			<ul class="list__news">
 				{% assign news = site.posts | where: "type", "news" %}
-				{% for post in news %}
+				{% for post in news limit: 2 %}
 				<li class="no-bullet">
 					<div class="post__item__wrapper">
 						<div class="post__item__thumb">
