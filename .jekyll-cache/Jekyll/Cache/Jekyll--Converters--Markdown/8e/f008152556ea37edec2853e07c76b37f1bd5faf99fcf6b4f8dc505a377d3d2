@@ -1,89 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		
-		<meta property="og:title" content="dnataly - Read our latest article at The Conversation UK!">
-		
-		<meta property="og:type" content="website">
-		
-		
-		<meta property="og:image" content="/assets/img/the_conversation_UK.png">
-		<meta property="og:url" content="http://localhost:4000/2020/04/01/the_conversation_no_cinchona.html">
-		<meta property="og:site_name" content="DNATALY">
-		
-		
-		<meta property="og:description" content="Read our latest article on why we shouldn't use quinine nor cinchona bark to treat or prevent COVID-19. Great collaborative work with Kim Walker and Cassandra Quave. Also ¡versión en español!">
-
-		
-		<title>dnataly - Read our latest article at The Conversation UK!</title>
-		
-		<link href="https://fonts.googleapis.com/css?family=Adamina|Lustria|Philosopher|Sura" rel="stylesheet">
-		<link rel="stylesheet" href="/assets/css/styles.css">
-		<link rel="stylesheet" href="/assets/css/slick.css">
-		<link rel="stylesheet" href="/assets/css/jquery-ui.min.css">
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="http://localhost:4000/assets/js/slick.min.js"></script>
-		<script src="http://localhost:4000/assets/js/jquery-ui.min.js"></script>
-		<script src="http://localhost:4000/assets/js/twitterFetcher_min.js"></script>
-		<script src="http://localhost:4000/assets/js/main.js"></script>
-
-		<link rel="shortcut icon" type="image/png" href="/favicon.png">
-	</head>
-	<body>
-		<div class="header__wrapper ">
-			
-
-			<section class="section__menu">
-				<div class="section__menu__wrapper">
-					<div class="header__page">
-						<div class="header__logo">
-							<i class="icon-logo"></i>
-						</div>
-					</div>
-
-					<nav class="menu__nav">
-	
-		<a href="/" >Home</a>
-	
-		<a href="/about" >About me</a>
-	
-		<a href="/research" >Research</a>
-	
-		<a href="/publications" >Publications</a>
-	
-		<a href="/outreach" >Outreach</a>
-	
-		<a href="/external" >External Links</a>
-	
-</nav>
-
-					<div class="menu__icon">
-						<i class="icon-icon-menu"></i>
-					</div>
-				</div>
-			</section>
-		</div>
-
-		<main>
-			<section class="general__content news">
-  <div class="section__wrapper post__wrapper">
-    <div class="section__title">
-      <h1>Read our latest article at The Conversation UK!</h1>
-      <p class="post__date">Posted on 2020-04-01</p>
-      <p class="post__excerpt">Read our latest article on why we shouldn't use quinine nor cinchona bark to treat or prevent COVID-19. Great collaborative work with Kim Walker and Cassandra Quave. Also ¡versión en español!</p>
-    </div>
-
-    <div class="content__wrapper">
-      <div class="extra__column">
-        
-
-      </div>
-      <div class="content">
-        <p>Y ahora en español:</p>
+I"�<p>Y ahora en español:</p>
 
 <h1 id="no-la-corteza-del-árbol-de-la-quina-no-es-la-cura-al-coronavirus">No, la corteza del árbol de la quina no es la cura al coronavirus</h1>
 
@@ -97,7 +12,7 @@ También ha habido una creciente demanda de cloroquina, lo que resultó en que a
 
 <p>Desde su descubrimiento en el siglo XVII, la corteza del árbol andino de cinchona y sus componentes químicos, conocidos como alcaloides del tipo quinoleína (quinina, quinidina, cinconina y cinchonidina), proporcionaron el único tratamiento para la malaria por más de 300 años. En 1934, algunos científicos desarrollaron el primer antipalúdico sintético, más tarde conocido como cloroquina. Aunque la cloroquina se inspiró en la actividad antipalúdica de la quinina, su estructura química (y propiedades farmacológicas) es bastante diferente de los compuestos naturales que se encuentran en la corteza de cinchona.</p>
 
-<p><img src="/assets/img/cinchona_Kew.jpg" alt="" class="img-center width-3" />
+<p><img src="/assets/img/cinchona_Kew.jpg" alt="" class="img-center width-4" />
 <em>Cinchona pubescens</em> en invernadero de RBG, Kew. De la autora (no reusar).</p>
 
 <p>Hasta la fecha, no hay evidencia clínica o de laboratorio que la quinina o algún compuesto de la corteza de cinchona muestre actividad contra COVID-19. Además, no todo lo natural es seguro. La cinchona y la quinina son tóxicas y pueden causar serios efectos secundarios graves conocidos como “cinchonismo”, que pueden incluir	sordera y pérdida de la visión, problemas respiratorios y problemas cardíacos y renales. También puede inducir a un coma.
@@ -117,40 +32,4 @@ Si bien las píldoras de quinina alguna vez se vendieron sin receta en los Estad
 
 <p>Traducido por Nataly Canales</p>
 
-
-      </div>
-    </div>
-  </div>
-</section>
-		</main>
-
-		<footer>
-			<div class="footer__wrapper">
-				<div class="section__title">
-					<h1>Contact Me</h1>
-				</div>
-
-
-				<div class="footer__info__wrapper">
-					<div id="footer__twitter_feed"></div>
-
-					<div class="footer__info">
-						<div class="footer__links">
-							<div class="footer__links__mail"><a href="mailto:nataly.canales@snm.ku.dk"><i class="icon-mail4"></i>nataly.canales@snm.ku.dk</a></div>
-							<div class="footer__links__twitter"><a href="https://twitter.com/allasicanales"><i class="icon-twitter"></i>@allasicanales</a></div>
-              <div class="footer__links__rg"><a href="https://www.researchgate.net/profile/Nataly_Allasi_Canales"><i class="icon-rg"></i></a></div>
-							<div class="footer__links__gcit"><a href="https://scholar.google.com/citations?user=a1_ARVMAAAAJ&hl=en"><img class="icon-gcit" src="assets/img/icons/scholar_logo_24dp.png" /></a></div>
-						</div>
-						<h1 id="natural-history-museum-of-denmark">Natural History Museum of Denmark</h1>
-<h2 id="university-of-copenhagen">University of Copenhagen</h2>
-<h3 id="øster-farimagsgade-5a-building-7-1st---136">Øster Farimagsgade 5A, building 7, 1st - 136</h3>
-<p>Copenhagen DK-1353, Denmark</p>
-
-<p>+45 40230102</p>
-
-					</div>
-				</div>
-			</div>
-		</footer>
-	</body>
-</html>
+:ET
