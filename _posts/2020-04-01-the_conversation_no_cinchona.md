@@ -1,5 +1,5 @@
 ---
-title: Read our latest article at The Conversation UK!
+title: Read our latest article at The Conversation UK! (También en español)
 layout: post
 author: ---
 excerpt: Read our latest article on why we shouldn't use quinine nor cinchona bark to treat or prevent COVID-19. Great collaborative work with Kim Walker and Cassandra Quave. Also ¡versión en español!
