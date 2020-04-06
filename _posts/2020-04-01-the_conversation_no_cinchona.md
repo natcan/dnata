@@ -41,7 +41,16 @@ La cinchona es altamente tóxica y se debe evitar la automedicación con ella o 
 
 Fuente:
 
-[No, cinchona bark is not a cure for coronavirus](https://theconversation.com/no-cinchona-bark-is-not-a-cure-for-coronavirus-134947) 
+[No, cinchona bark is not a cure for coronavirus](https://theconversation.com/no-cinchona-bark-is-not-a-cure-for-coronavirus-134947) - The Conversation UK.
+
+Autoras:
+
+[Kim Walker](https://www.kimwalkerresearch.com/) es estudiante de PhD, Colección de Botánica Económica, Real Jardín Botánico, Kew, Royal Holloway.
+
+[Cassandra Quave](http://etnobotanica.us/) es profesora asistente de Dermatología y Salud Humana; Curadora de Herbario, Universidad de Emory.
+
+[Nataly Olivia A Canales](http://dnataly.com) es estudiante de PhD en Genómica Evolutiva, Museo de Historia Natural de Dinamarca, Universidad de Copenhagen.
+
 
 Traducido por Nataly Canales
 
