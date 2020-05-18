@@ -59,20 +59,39 @@ April 2019, January 2020.
 January 2018, June 2019.
 
 
-# Blog posts
+# Bolivia fieldwork blog post
 
 ![](/assets/img/blogpost.jpg){: .img-center .width-3}
 
 About my field work in Bolivia, collaborating with the Herbario Nacional de Bolivia on the 1st Flora of Bolivia expedition in Pilón Lajas Biosphere Reserve:
 
-[Botanists as time travelers - Plant.ID](https://www.plantid.uio.no/news-and-events/blog/botanists-as-time-travelers.html)
+Botanists as time travelers. [Read it here.](https://www.plantid.uio.no/news-and-events/blog/botanists-as-time-travelers.html)
 
-# Video
+# Videos
 
 ## From malaria to gin and tonic: the story of the fever tree
+
+Short video about my PhD project.
 
 <div class="vidframe__wrapper">
   <div class="vidframe">
     <iframe src="https://www.youtube.com/embed/gcJkzHfSgpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
+
+<br>
+
+## Check out this short documentary about the _Cinchona_ project
+
+The _Cinchona_ collections I work with belong to the Economic Botany collection in RBG Kew, curated by [Prof. Mark Nesbitt](http://www.marknesbitt.org.uk/), who is also my co-supervisor:
+[Economic Botany Collection | Kew](https://www.kew.org/science/collections-and-resources/collections/economic-botany-collection)
+
+<div class="vidframe__wrapper">
+  <div class="vidframe">
+    <iframe src="https://player.vimeo.com/video/229138364?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+</div>
+
+<p style="text-align: center; margin-top: 20px; transform: scale(0.9)"><a href="https://vimeo.com/229138364">THE QUEST FOR CINCHONA</a> from <a href="https://vimeo.com/user4799651">Alphafilm &amp; Kommunikation</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
