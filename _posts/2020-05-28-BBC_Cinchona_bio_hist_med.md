@@ -1,5 +1,5 @@
 ---
-title: The tree that changed the world mapb - BBC
+title: The tree that changed the world map - BBC
 layout: post
 author: ---
 excerpt: On the natural history, conservation, and medicinal use of the Cinchona tree.
