@@ -10,7 +10,7 @@ title: Outreach
 
 March 26th, 2020. NTNU, Norway.
 
-Natural History department, NTNU University Museum
+Natural History Museum department, NTNU.
 
 * **_Cinchona_ bark collections: from alkaloids to genomes**
 
@@ -44,6 +44,8 @@ April 3-5, 2019. London, UK.
 
  3rd UK Plant Evolution meeting - Early researchers session, Kew gardens.
 
+<br>
+
 # Teaching
 
 * **Plants, phylogenies, drugs and G&Ts**, lecture in the "Animal-plants interactions and evolutionary approach" bachelor course.
@@ -58,14 +60,47 @@ April 2019, January 2020.
 
 January 2018, June 2019.
 
+<br>
 
-# Bolivia fieldwork blog post
+# Blog post
+
+## Bolivia fieldwork blog for Plant.ID
 
 ![](/assets/img/blogpost.jpg){: .img-center .width-3}
 
 About my field work in Bolivia, collaborating with the Herbario Nacional de Bolivia on the 1st Flora of Bolivia expedition in Pilón Lajas Biosphere Reserve:
 
 Botanists as time travelers. [Read it here.](https://www.plantid.uio.no/news-and-events/blog/botanists-as-time-travelers.html)
+
+<br>
+
+# Science communication
+
+## BBC Travel
+
+**The tree that changed the world map** interviewed by Vittoria Traverso.
+
+Originally posted [here](http://www.bbc.com/travel/story/20200527-the-tree-that-changed-the-world-map) on May 28, 2020.
+
+## La República - Perú
+
+**El árbol de la quina no es cura al coronavirus** interviewed by Jesica León.
+
+Originally posted [here](https://larepublica.pe/sociedad/2020/04/25/coronavirus-en-peru-el-arbol-de-la-quina-no-es-cura-al-covid-19/) on April 25, 2020. 
+
+## Rumbos - Perú
+
+**No, la corteza del árbol de la quina no es la cura al coronavirus** translation to Spanish of The Conversation piece.
+
+Originally posted [here](https://www.rumbosdelperu.com/ambiente/07-04-2020/no-la-corteza-del-arbol-de-la-quina-no-es-la-cura-al-coronavirus/) on April 7, 2020. 
+
+## The Conversation UK
+
+**No, cinchona bark is not a cure for coronavirus** by Kim Walker, Royal Holloway; Cassandra Quave, Emory University, and Nataly Olivia A Canales, University of Copenhagen.
+
+Originally posted [here](https://theconversation.com/no-cinchona-bark-is-not-a-cure-for-coronavirus-134947) on March 31, 2020.
+
+<br>
 
 # Videos
 
