@@ -5,6 +5,12 @@ title: Outreach
 
 # Talks
 
+* **DNA antiguo en plantas para entender el pasado y el presente**
+
+October 27th, 2020. Virtual talk, Peru.
+
+Facultad de Ciencias y Filosofía, UPCH.
+
 
 * **Paleogenomic analysis of _Cinchona_ bark collections**
 
