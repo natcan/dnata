@@ -110,6 +110,24 @@ Originally posted [here](https://theconversation.com/no-cinchona-bark-is-not-a-c
 
 # Videos
 
+## Biodiversity time travels: The use of historical plant genomes in biodiversity research
+
+Our first seminar series was part of a series in Molecular identification of plants for science and society. 
+
+Very proud to have organized and chaired this seminar. What is common subject in this seminar? the use of aDNA from collections to solve evolutionary questions. 
+
+The subjects ranged from a restrospective on plant genetic diversity using ancient DNA, invasive species, genetic erosion and domestication.   
+
+<div class="vidframe__wrapper">
+  <div class="vidframe">
+    <iframe src="https://www.youtube.com/watch?v=jhvsgWm7xEY&ab_channel=PlantID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+<br>
+
+More info for past and future seminars [here](https://www.plantid.uio.no/news-and-events/events/seminar-series.html). Originally took place in the 25th of February, 2021.
+
 ## From malaria to gin and tonic: the story of the fever tree
 
 Short video about my PhD project.
