@@ -1,10 +1,11 @@
 ---
-title: Biodiversity time travels: The use of historical plant genomes in biodiversity research
+title: Biodiversity time travels&#58; The use of historical plant genomes in biodiversity research
 layout: post
 author: ---
 excerpt: Very proud to have organized and chaired this seminar.
 external_link: https://www.youtube.com/watch?v=jhvsgWm7xEY&ab_channel=PlantID
-thumb: /assets/img/seminar.jpg
+type: news
+thumb: /assets/img/seminar.png
 published: true
 ---
 

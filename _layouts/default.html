@@ -135,7 +135,7 @@ page_description: |
 							<div class="footer__links__mail"><a href="mailto:{{ layout.email }}"><i class="icon-mail4"></i>{{ layout.email }}</a></div>
 							<div class="footer__links__twitter"><a href="{{ layout.twitter_l }}"><i class="icon-twitter"></i>@{{ layout.twitter_h }}</a></div>
               <div class="footer__links__rg"><a href="{{ layout.researchgate_l }}"><i class="icon-rg"></i></a></div>
-							<div class="footer__links__gcit"><a href="{{ layout.gcitations_l }}"><img class="icon-gcit" src="assets/img/icons/scholar_logo_24dp.png" /></a></div>
+							<div class="footer__links__gcit"><a href="{{ layout.gcitations_l }}"><img class="icon-gcit" src="{{ base.url | prepend: site.url }}/assets/img/icons/scholar_logo_24dp.png" /></a></div>
 						</div>
 						{{ layout.footer_info | markdownify }}
 					</div>
